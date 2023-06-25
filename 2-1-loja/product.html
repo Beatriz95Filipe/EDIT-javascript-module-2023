@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product_page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav id="navbar" class="container--fluid">
+        <a class="nav__logo" href=""><img src="assets/edit-extended-logo.png" alt="brand-logo"></a>
+        <div class="nav__menu" id="categoriesNav">
+            <a href="" class="menu__item">
+                <span class="menu__item__label">Seating</span>
+            </a>
+            <a href="" class="menu__item">
+                <span class="menu__item__label">Living Room</span>
+            </a>
+            <a href="" class="menu__item">
+                <span class="menu__item__label">Outdoor</span>
+            </a>
+            <a href="" class="menu__item">
+                <span class="menu__item__label">Bedroom</span>
+            </a>
+            <a href="" class="menu__item">
+                <span class="menu__item__label">Storage</span>
+            </a>
+        </div>
+    </nav>
+    <aside></aside>
+    <main>
+        <section id="choosenProduct" class="container">
+            <p class="choosen__product__title">Nomad</p>
+            <div class="row">
+                <div class="col-lg-8">
+                </div>
+                <div class="col-lg-4">
+                    <p class="choosen__product__details">Block Nomad Sofa</p>
+                    <p class="choosen__product__details">€1595 + Free Shipping</p>
+                    <form id="addToCart" class="product_form" action="">
+                        <div class="product_quantity">
+                            <button class="product_quantity_btn btn_decrease">-</button>
+                            <div class="product_quantity_num">0</div>
+                            <button class="product_quantity_btn btn_increase">+</button>
+                        </div>
+                        <div class="cart">
+                            <button type="submit" id="addToCartBtn" class="btn__cart">add to cart</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="productDescription" class="container">
+            <div class="row__left">
+                <p class="about__title">About this piece</p>
+                <p class="about">The ideal three-seat sofa featuring one seat with a chaise lounge addition, one seat with an ottoman, and one seat for the chiropractor who loves to sit upright with their feet on the floor. Like everything we make, our modular design is incredibly easy to move and packed with all the clever, life-changing features you expect from Burrow, starting with a built-in USB charger.</p>
+            </div>
+        </section>
+        <section class="container">
+            <p class="about__title__key">Key Features</p>
+            <div class="key-feat">
+                <div class="key-feat__thumbnail">
+                    <img src="assets/icon-2.webp" alt="Customizable">
+                    <span>Customizable</span>
+                </div>
+                <div class="key-feat__thumbnail">
+                    <img src="assets/icon-3.webp" alt="Frame" id="feat2">
+                    <span>Frame</span>
+                </div>
+                <div class="key-feat__thumbnail">
+                    <img src="assets/icon-4.webp" alt="Hardware" id="feat3">
+                    <span>Hardware</span>
+                </div>
+                <div class="key-feat__thumbnail">
+                    <img src="assets/icon-1.webp" alt="Charger" id="feat4">
+                    <span>Charger</span>
+                </div>
+                <div class="key-feat__thumbnail">
+                    <img src="assets/icon-5.webp" alt="Legs" id="feat5">
+                    <span>Legs</span>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <p class="slogan">Here's what else our designers recommend</p>
+            <div id="relatedProducts" class="row category__product__thumbnail">
+                <div class="col-lg-4 product__thumbnail">
+                    <a href="./product.html">
+                        <img class="main__img" src="assets/products/1/product.webp" alt="seating1">
+                        <img class="hover__img" src="assets/products/1/product-hover.webp" alt="seating1h">
+                    </a>
+                    <p class="category__product__text">Nomad Sofa</p>
+                    <p class="category__product__price">€1595 or as low as €100/mo</p>
+                </div>
+                <div class="col-lg-4 product__thumbnail">
+                    <img class="main__img" src="assets/products/2/product.webp" alt="seating2">
+                    <img class="hover__img" src="assets/products/2/product-hover.webp" alt="seating2h">
+                    <p class="category__product__text">Nomad Sofa</p>
+                    <p class="category__product__price">€1595 or as low as €100/mo</p>
+                </div>
+                <div class="col-lg-4 product__thumbnail">
+                    <img class="main__img" src="assets/products/3/product.webp" alt="seating3">
+                    <img class="hover__img" src="assets/products/3/product-hover.webp" alt="seating3h">
+                    <p class="category__product__text">Nomad Sofa</p>
+                    <p class="category__product__price">€1595 or as low as €100/mo</p>
+                </div>
+            </div>
+        </section>
+        <div class="contact">
+            <form id="subscribe" class="subscribe" action="">
+                <input type="email" placeholder="Sign up for enthralling couch reads" name="emailField">
+                <button class="btn__subscribe" type="submit">join our newsletter</button>
+            </form>
+            <div class="socials">
+                <a class="socials_thumbnail" href="">
+                    <img src="./assets/socials/icons8-youtube.svg" alt="youtube">
+                </a>
+                <a class="socials_thumbnail" href="">
+                    <img src="./assets/socials/icons8-instagram.svg" alt="instagram">
+                </a>
+                <a class="socials_thumbnail" href="">
+                    <img src="./assets/socials/icons8-facebook.svg" alt="facebook">
+                </a>
+            </div>
+        </div>
+    </main>
+        <footer class="container--fluid footer">
+            <div class="row footer__list">
+                <div class="col-lg-3">
+                    <ul>
+                        <li class="title">Shopping Services</li>
+                        <li><a class="footer__list" href="">Schedule Consultation</a></li>
+                        <li><a class="footer__list" href="">Showrooms</a></li>
+                        <li><a class="footer__list" href="">Trade Program</a></li>
+                        <li><a class="footer__list" href="">Outlet</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <li class="title">About</li>
+                        <li><a class="footer__list" href="">Our Story</a></li>
+                        <li><a class="footer__list" href="">Reviews</a></li>
+                        <li><a class="footer__list" href="">Careers</a></li>
+                        <li><a class="footer__list" href="">Financing</a></li>
+                        <li><a class="footer__list" href="">Patents</a></li>
+                        <li><a class="footer__list" href="">Our Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <li class="title">Resources</li>
+                        <li><a class="footer__list" href="">Look Up Order Status</a></li>
+                        <li><a class="footer__list" href="">Assembly Instructions</a></li>
+                        <li><a class="footer__list" href="">Returns</a></li>
+                        <li><a class="footer__list" href="">Shipping & Delivery</a></li>
+                        <li><a class="footer__list" href="">FAQ</a></li>
+                        <li><a class="footer__list" href="">Refer a Friend</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <li class="title">Contact Customer Experience</li>
+                        <li>Email: support@template.com</li>
+                        <li>Text: 224-628-7769</li>
+                        <li>Hours:</li>
+                        <li>Monday to Friday — 10a to 8p EST</li>
+                        <li>Saturday to Sunday — 10a to 2p EST</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-3"></div>
+            </div>
+            <div class="footer__end">
+                <div class="copyright">
+                    <p id="copyright">© 2023 Template</p>
+                    <a class="site__links" href="">Terms</a>
+                    <span> - </span>
+                    <a class="site__links" href="">Accessibility</a>
+                    <span> - </span>
+                    <a class="site__links" href="">Sitemap</a>
+                    <span> - </span>
+                    <a class="site__links" href="">Privacy</a>
+                </div>
+                <div class="adress">
+                    <p>15 W 27th Street, 9th Floor New York, NY, 10001</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <script>
+
+            const body = document.querySelector("body");
+
+            async function getCategories(){
+                let request = await fetch("https://fakestoreapi.com/products/categories");
+                let categories = await request.json();
+                return categories;
+            }
+
+            const getNavBarCategories = async () => {
+
+                let categoriesNavBar = document.getElementById("categoriesNav");
+                categoriesNavBar.innerHTML = "";
+
+                let categories = await getCategories();
+                //console.log(categories);
+
+                categories.forEach((category) => {
+                    categoriesNavBar.innerHTML +=
+                        `<a href="./category.html?category=${category}" class="menu__item">
+                            <span class="menu__item__label">${category}</span>
+                        </a>`
+                });
+            }
+
+
+            const urlProduct = new URLSearchParams (window.location.search);
+            const clickedProduct = urlProduct.get("productId");
+            console.log(clickedProduct);
+
+            async function getProduct(clickedProduct){
+                let request = await fetch("https://fakestoreapi.com/products/"+clickedProduct);
+                let productInfo = await request.json();
+                //console.log(product);
+                //let productTitle = product.title;
+                //console.log(product.title);
+                return productInfo;
+            }
+
+            let selectedQuantity = 0;
+
+            const addToCartInfo = async () => {
+                let product = await getProduct(clickedProduct);
+                //console.log(product);
+
+                const productToCart = {
+                    productId: product.id,
+                    quantity: selectedQuantity
+                };
+
+                let getcurrentDate = new Date();
+                let getDay = getcurrentDate.getDate();
+                let getMonth = getcurrentDate.getMonth();
+                let getYear = getcurrentDate.getFullYear();
+
+                const currentDate = `${getYear}-${getMonth}-${getDay}`;
+                //console.log(currentDate);
+
+                const userId = 192837;
+
+                const cartData = {
+                    userId: userId,
+                    date: currentDate,
+                    products: [productToCart]
+                }
+                //console.log(cartData);
+                return cartData;
+            }
+
+            const createProductCard = async () => {
+
+                let product = await getProduct(clickedProduct);
+                //console.log(product);
+
+
+                let choosenProduct = document.getElementById("choosenProduct");
+                choosenProduct.innerHTML = "";
+                choosenProduct.innerHTML +=
+                    `<section class="container">
+                        <p class="choosen__product__title">${product.title}</p>
+                        <div class="row">
+                            <div class="col-lg-8 choosen__product">
+                                <img class="choosen__product__img" src="${product.image}" alt="productId-${product.id}">
+                            </div>
+                            <div class="col-lg-4">
+                                <p class="choosen__product__details">${product.price}€ + Free Shipping</p>
+                                <p class="choosen__product__details">Rating:${product.rating.rate}</p>
+                                <p class="choosen__product__details">${product.rating.count} reviews</p>
+                                <form id="addToCart" class="product_form" action="">
+                                    <div class="product_quantity">
+                                        <button id="decreaseBtn" class="product_quantity_btn btn_decrease">-</button>
+                                        <div id="productQuantity" class="product_quantity_num">${selectedQuantity}</div>
+                                        <button id="increaseBtn" class="product_quantity_btn btn_increase">+</button>
+                                    </div>
+                                    <div class="cart">
+                                        <button type="submit" id="addToCartBtn" class="btn__cart">add to cart</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </section>`
+
+                let choosenProductDescription = document.getElementById("productDescription");
+                choosenProductDescription.innerHTML = "";
+                choosenProductDescription.innerHTML +=
+                    `<section class="container">
+                        <div class="row__left">
+                            <p class="about__title">About this piece</p>
+                            <p class="about">${product.description}</p>
+                        </div>
+                    </section>`
+
+                const productQuantity = document.getElementById("productQuantity");
+                const increaseBtn = document.getElementById("increaseBtn");
+                const decreaseBtn = document.getElementById("decreaseBtn");
+
+                increaseBtn.onclick = (event) => {
+                    event.preventDefault();
+                    selectedQuantity++;
+                    productQuantity.innerHTML = selectedQuantity;
+                };
+
+                decreaseBtn.onclick = (event) => {
+                    event.preventDefault();
+                    if(selectedQuantity > 0) {
+                        selectedQuantity--;
+                        productQuantity.innerHTML = selectedQuantity;
+                    }
+                }
+
+                const addToCartBtn = document.getElementById("addToCartBtn");
+
+                addToCartBtn.onclick = (event) => {
+                    event.preventDefault();
+                    addToCartInfo()
+                        .then((cartDataInfo) => {
+                            console.log(cartDataInfo);
+
+                            fetch("https://fakestoreapi.com/carts/7", {
+                            method: 'PUT',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify(cartDataInfo),
+                            })
+                            .then((response) => response.json())
+                            .then((data) => {
+                                console.log(data);
+                                alert("Product added to cart!");
+                            })
+                            .catch((error) => {
+                                console.error(error);
+                                alert("Failed to add product to cart.");
+                            });
+                        });
+                };
+            }
+
+            async function getProductsByCategory(productCategory){
+                let request = await fetch("https://fakestoreapi.com/products/category/"+productCategory);
+                let products = await request.json();
+                return products;
+                //console.log(products);
+            }
+
+            const showRelatedProducts = async () => {
+                let product = await getProduct(clickedProduct);
+                //console.log(product);
+
+                let productId = product.id;
+                let productCategory = product.category;
+                // console.log(productId);
+                // console.log(productCategory);
+
+                let categoryProducts = await getProductsByCategory(productCategory);
+                //console.log(categoryProducts);
+                let relatedProducts = categoryProducts.slice(0, 3);
+                console.log(relatedProducts);
+
+                let getRelatedProducts = document.getElementById("relatedProducts");
+                getRelatedProducts.innerHTML = "";
+
+                relatedProducts.forEach((relProduct) => {
+                    getRelatedProducts.innerHTML +=
+                        `<div class="col-lg-4 product__thumbnail">
+                            <a href="./product.html?productId=${relProduct.id}">
+                                <img class="main__img" src="${relProduct.image}" alt="${relProduct.id}">
+                                <img class="hover__img" src="assets/shop-icon-thumbnail.JPG" alt="shop-icon">
+                            </a>
+                            <p class="category__product__text">${relProduct.title}</p>
+                            <p class="category__product__price">${relProduct.price} €</p>
+                        </div>`
+                });
+            }
+
+
+
+            let copyrightFooter = () => {
+                let getDate = new Date();
+                let getYear = getDate.getFullYear();
+                let copyrightYear = document.getElementById("copyright");
+                copyrightYear.innerHTML = `<p>© ${getYear} Template</p>`;
+                //console.log(getYear);
+            }
+
+            //ONLOAD
+            body.onload = () => {
+                getNavBarCategories();
+                createProductCard();
+                showRelatedProducts();
+                copyrightFooter();
+            }
+
+
+            const newsletterForm = document.getElementById("subscribe");
+
+            newsletterForm.onsubmit = (formSubmit) => {
+                formSubmit.preventDefault();
+
+                const newsletterData = new FormData(formSubmit.target);
+                const email = newsletterData.get("emailField");
+                console.log(email);
+
+                fetch("https://fakeNewsletter.com", {
+                    method: 'POST',
+                    headers: {
+                    'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(newsletterData)
+                })
+                    .then((response) => response.json())
+                    .then((data) => {
+                        console.log(data);
+                        alert("Thank you for joining our newsletter!");
+                    })
+                    .catch(error => {
+                        if (email === "") {
+                        alert("Don't forget to enter you email!");
+                        }
+                    });
+                
+                newsletterForm.reset();
+            }
+
+        </script>
+</body>
+</html>

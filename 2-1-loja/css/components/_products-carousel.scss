@@ -1,0 +1,24 @@
+@import '../parciais/grid';
+@import '../parciais/colors';
+@import '../parciais/mixins';
+@import '../parciais/typo';
+
+// #productsCarousel{
+//     @include flex(space-evenly, center);
+//     overflow: hidden;
+//     transition: transform 0.5s ease;
+//     width: 100%;
+//     img{
+//         max-height: 150px;
+//         aspect-ratio: 1;
+//         padding: 20px;
+//     }
+//     &::-webkit-scrollbar {
+//         display: none;
+//     }
+// }
+
+// .bestRatedProducts{
+//     @include flex(center, center);
+//     flex-wrap: wrap;
+// }

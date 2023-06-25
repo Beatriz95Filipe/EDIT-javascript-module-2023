@@ -1,0 +1,45 @@
+@import '../parciais/colors';
+@import '../parciais/typo';
+@import '../parciais/buttons';
+@import '../parciais/mixins';
+
+.contact{
+    background-color: $bg-grey;
+    padding: 40px 8px 40px;
+    @include flex(space-between, center);
+}
+
+.subscribe{
+    @include flex(space-between, center);
+    border: 1.5px solid $bg-lime;
+    border-radius: 4px;
+    input {
+        background-color: $bg-grey;
+        border: none;
+        outline: none;
+        width: 250px;
+        padding: 12px 8px 12px;
+    }
+}
+
+.socials{
+    display: flex;
+    gap: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .subscribe{
+        @include flex(space-between, center);
+        flex-wrap: wrap;
+        border: none;
+        width: 100%;
+    }
+    input{
+        border: 1.5px solid $bg-lime;
+        border-radius: 4px;
+        width: 100%;
+    }
+    .socials{
+        display: none;
+    }
+}

@@ -1,0 +1,24 @@
+@import '../parciais/grid';
+@import '../parciais/colors';
+@import '../parciais/mixins';
+@import '../parciais/typo';
+
+
+.styles{
+    @include flex(space-between, flex-start);
+    &__choices{
+        @include flex(flex-start, flex-start);
+        gap: 2px;
+    }
+}
+
+.product_form{
+    @include flex(space-between, flex-end);
+    padding: 20px 0 0;
+}
+
+.cart{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0 0;
+}
